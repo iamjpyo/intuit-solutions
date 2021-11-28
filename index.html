@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expert Technology Associates</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/logo-copy.jpg" alt="ETA Logo" class="logo" />
+      <form class="search" onsubmit="searchAlert()">
+        <input type="text" id="search" name="search" placeholder="Search"/>
+        <button >Search</button>
+      </form>
+    </div>
+    <!--End of header-->
+
+    <nav>
+      <ul class="main_nav">
+        <li><a href="#" class="blue">About Us</a></li>
+        <li><a href="#" class="orange">What We Do</a></li>
+        <li><a href="#" class="gray">Case Studies</a></li>
+        <li><a href="#" class="blue">Employment</a></li>
+        <li><a href="#" class="orange">Contact Us</a></li>
+        <li><a href="#" class="gray">Home</a></li>
+      </ul>
+    </nav>
+    <!--End of Navbar-->
+    <div class="mainPage">
+      <div class="sideMenu">
+        <ul>
+          <li><a href="#">>> Press Release</a></li>
+          <li><a href="#">>> Events</a></li>
+          <li><a href="#">>> White Papers</a></li>
+          <li><a href="#">>> Executive Bios</a></li>
+        </ul>
+      </div>
+      <!--End of side menu-->
+      <div class="about">
+        <div class="jumbo">
+          <h1>about us</h1>
+          <img
+            src="./images/hero-copy.jpg"
+            alt="About us jumbo image"
+          />
+        </div>
+        <p>
+          Efficiently unleash cross-media information without cross-media value.
+          Quickly maximize timely deliverales for real-time schemas.
+          Dramatically maintain clicks-and-mortar solutions without functional
+          solutions.
+        </p>
+        <p>
+          Completely synergize resource sucking relationships via premier niche
+          markets. Professionally cultivate one-to-one customer service without
+          robust ideas. Dynamically innovative resource-leveling customer
+          service for state of the art customer service.
+        </p>
+
+        <!-- Tab links -->
+        <ul class="tab">
+          <li class="tablinks active" onclick="clickHandle(event, 'first')">
+            First Tab
+          </li>
+          <li class="tablinks" onclick="clickHandle(event, 'second')">
+            Second Tab
+          </li>
+          <li class="tablinks" onclick="clickHandle(event, 'third')">
+            Third Tab
+          </li>
+        </ul>
+
+        <!-- Tab content -->
+        <div id="first" class="tabcontent">
+          <p>I am the content of one.</p>
+        </div>
+
+        <div id="second" class="tabcontent">
+          <p>I am the content of two.</p>
+        </div>
+
+        <div id="third" class="tabcontent">
+          <p>I am the content of three.</p>
+        </div>
+
+        <p>
+          Completely synergize resource sucking relationships via premier niche
+          markets. Professionally cultivate one-to-one customer service without
+          robust ideas. Dynamically innovative resource-leveling customer
+          service for state of the art customer service.
+        </p>
+      </div>
+    </div>
+    <!--End of about section-->
+
+    <div id="footer">
+      <a href="#">About Us</a> | <a href="#">What We Do</a> |
+      <a href="#">Case Studies</a> | <a href="#">Employment</a> |
+      <a href="#">Contact Us</a> |
+      <a href="#">Home</a>
+      <p>
+        Copyright 2013 Expert Technology Associates. All Rights Reserved.<br />
+        Design and marketing by <a href="#">Strategies Group</a>
+      </p>
+    </div>
+    <!--End of footer-->
+  </body>
+  <script src="src/index.js"></script>
+</html>

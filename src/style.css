@@ -1,0 +1,170 @@
+/* Document Editing */
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+ display: flex;
+ justify-content: space-between;
+ justify-content: center;
+ align-items: center;
+ gap: 24em;
+ flex-wrap: wrap;
+ margin-left: 2em;
+}
+
+.logo {
+  margin-top: 1em;
+}
+
+.search {
+  margin-top: 2em;
+  justify-content: center;
+}
+
+.header input {
+    padding: .2em;
+    width: 16em;
+    font-size: 20px;
+}
+
+.search button {
+  background-color: #fc7e21;
+  color: #ffffff;
+  border: none;
+  padding: .27em;
+  font-size: 20px;
+}
+ 
+/*Navbar */
+nav {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.main_nav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: .5em;
+  flex-wrap: wrap;
+}
+
+.main_nav li a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 42px;
+}
+.main_nav li a.blue {
+  background-color: #3263bf;
+}
+
+.main_nav li a.orange {
+  background-color: #fc7e21;
+}
+
+.main_nav li a.gray {
+  background-color: #afafaf;
+}
+
+/* About Us section */
+.mainPage {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.sideMenu li {
+  background: #9ecdff;
+  margin-bottom: 2px;
+  padding: 1em;
+  padding-right: 11em;
+  list-style-type: none;
+
+}
+
+.sideMenu a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.about {
+    width: 47em;
+}
+.about p{
+    font-size: 19px;
+}
+
+.jumbo {
+    width: 47em;
+}
+.jumbo h1{
+    background-color: #afafaf;
+    color: #ffffff;
+    text-align: right;
+    font-size: 25px;
+    margin-bottom: 0;
+    padding-right: 1em;
+    border-radius: 0px 25px 0px 0px;
+}
+.jumbo img{
+    width: 47em;
+}
+
+/* Clickable Tabs */
+.tab {
+  display: flex;
+  justify-content: start;
+  list-style-type: none;
+  overflow: hidden;
+  gap: 3em;
+  margin-bottom: 0;
+}
+
+
+.tab li {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: #3263bf;
+  border: 1px solid #ccc;
+  margin-left: -2.35em;
+  border-bottom: none;
+  background-color: #ddd;
+}
+
+.tab li:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab li.active {
+  background-color: #ffff;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+}
+
+/*Footer */
+#footer {
+  margin-top: 10px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #dcdcdc;
+  color: #4b4242;
+  text-align: center;
+}
+
+#footer a {
+  margin-bottom: .5em;
+  color: #4b4242;
+}
