@@ -53,18 +53,19 @@ nav {
 .main_nav li a {
   font-size: 20px;
   color: #fff;
+  font-weight: bold;
   text-decoration: none;
   padding: 6px 42px;
 }
-.main_nav li a.blue {
+.blue {
   background-color: #3263bf;
 }
 
-.main_nav li a.orange {
+.orange {
   background-color: #fc7e21;
 }
 
-.main_nav li a.gray {
+.gray {
   background-color: #afafaf;
 }
 
